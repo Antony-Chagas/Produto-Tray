@@ -1,0 +1,14 @@
+div {
+    display: inline-block;
+    height: 100%;
+}
+
+#cotainerA {
+    background-color: antiquewhite;
+    
+}
+
+#cotainerB {
+    background-color: aquamarine;
+
+}
