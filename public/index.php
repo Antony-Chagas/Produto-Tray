@@ -10,7 +10,7 @@
 </head>
 <body>
   
-    <h1> <?php echo "$productName"; ?></h1>
+    <h1 id="productName"> <?php echo "$productName"; ?></h1>
 
     <div id="cotainerA">
      <img src="img/anilha.png">  
@@ -24,7 +24,7 @@
 
     <div id="cotainerB5">
     <h3 id="price"> <?php echo "$price"; ?></h3>
-    <h4 id="price2"> <?php echo "$price2"; ?></h4>
+    <h5 id="price2"> <?php echo "$price2"; ?></h5>
     <h5 id="formsOfpaagmwento"> <?php echo "$formsOfpaagmwento"; ?></h5>
     </div>
    
@@ -40,11 +40,12 @@
 
         <div id="cotainerB4">
           <form method="POST" action="data.php">
-            <br> Simulador de frete <br> 
+            <br> <h4>Simulador de Frete</h4> <br> 
              <label>CEP:</label>
                <input type="int" name="CEP" size="10"> -
              <input type="int" name="Final CEP" size="2" >
-                <input type="submit" value="Calcular frete">
+                <input id="CalculateShipping"  type="submit" value="CALCULAR FRETE">
+                <br> <h3> </h3>
     </div>
         </div>
     <div>
