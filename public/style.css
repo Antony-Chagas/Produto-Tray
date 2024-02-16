@@ -5,10 +5,56 @@ div {
 
 #cotainerA {
     background-color: antiquewhite;
-    
+
 }
 
 #cotainerB {
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 
+}
+
+#cotainerB5 {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+#cotainerB3 {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#Amount {
+    font-weight: bold
+}
+
+#list {
+    color: #2b0ed3;
+
+}
+
+#cotainerB4 {
+    display: block;
+    background-color: rgb(151, 151, 149);
+
+
+}
+
+
+#cotainerB1 {
+    margin-left: 200px;
+
+}
+
+#price {
+    color: #7bc42d;
+
+}
+
+#price2 {
+    color: #757574;
+}
+
+#formsOfpaagmwento {
+    color: #1104ca;
 }

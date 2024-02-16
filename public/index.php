@@ -17,30 +17,39 @@
     </div>
 
     <div id="cotainerB">
-    <h3> <?php echo "$launch"; ?></h3>
-    <h3> <?php echo "$price"; ?></h3>
-    <h3> <?php echo "$price2"; ?></h5>
-    <h5> <?php echo "$formsOfpaagmwento"; ?></h5>
 
-    <div id="cotainerC">
+    <div id="cotainerB1">
+    <img src="img/Lançamento.png">  
+    </div>
+
+    <div id="cotainerB5">
+    <h3 id="price"> <?php echo "$price"; ?></h3>
+    <h4 id="price2"> <?php echo "$price2"; ?></h4>
+    <h5 id="formsOfpaagmwento"> <?php echo "$formsOfpaagmwento"; ?></h5>
+    </div>
+   
+
+    <div id="cotainerB3">
     <form method="POST" action="data.php">
-        <label>Quantidade:</label>
-        <input type="int" name="Quantidade">
-        <input type="submit" value="Comprar"
+        <label id="Amount" >Quantidade: <br> </label>
+        <input type="int" name="Quantidade" size="5">
+        <input type="submit" value="Comprar">
+        <h3 id="list">Adicionar à Lista</h3>
     </form>
     </div>
 
+        <div id="cotainerB4">
+          <form method="POST" action="data.php">
+            <br> Simulador de frete <br> 
+             <label>CEP:</label>
+               <input type="int" name="CEP" size="10"> -
+             <input type="int" name="Final CEP" size="2" >
+                <input type="submit" value="Calcular frete">
+    </div>
+        </div>
     <div>
-
-    </div>
-    <form method="POST" action="data.php">
-    <br> Simulador de frete <br> 
-        <label>CEP:</label>
-        <input type="int" name="CEP" size="10"> -
-        <input type="int" name="Final CEP" size="2" >
-        <input type="submit" value="Calcular frete"
-    </form>
-    </div>
+    
+    
     
     
 
