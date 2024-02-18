@@ -10,7 +10,7 @@
 </head>
 <body>
   
-    <h1 id="productName"> <?php echo "$productName"; ?></h1>
+    <h2 id="productName"> <?php echo "$productName"; ?></h2>
 
     <div id="cotainerA">
      <img src="img/anilha.png">  
@@ -18,32 +18,50 @@
 
     <div id="cotainerB">
 
-    <div id="cotainerB1">
-    <img src="img/Lançamento.png">  
-    </div>
+    <div id="cotainerB1" >
+    
+            <span id="pointRight">•</span>      
+            Lançamento          
+            <span id="pointLeft">•</span>
+       </div>             
+
 
     <div id="cotainerB5">
     <h3 id="price"> <?php echo "$price"; ?></h3>
     <h5 id="price2"> <?php echo "$price2"; ?></h5>
-    <h5 id="formsOfpaagmwento"> <?php echo "$formsOfpaagmwento"; ?></h5>
+    <a href="" rel="nofollow" id="formsOfpaagmwento" class="color color-tone-6"><?php echo "$formsOfpaagmwento"; ?> </a>
+    <br><br><br>
+
+    
     </div>
    
 
     <div id="cotainerB3">
     <form method="POST" action="data.php">
-        <label id="Amount" >Quantidade: <br> </label>
-        <input type="int" name="Quantidade" size="5">
-        <input type="submit" value="Comprar">
-        <h3 id="list">Adicionar à Lista</h3>
+        <label id="amount" >Quantidade:  </label>
+        <input id="inputAmount" type="int" name="Quantidade" size="1" value="1"> 
+        <span id="totalStock"> / 9999</span>
+        <a href="#">	
+		<img id="purchase" src="img/comprar.png" alt="Iniciar Simulado"></a>
+        
+
+        <br> <br>
+
+        <div id="list">
+         <a id="AddList" href="#"> Adicionar à Lista </a>
+        </div>
+        
+        
     </form>
     </div>
 
         <div id="cotainerB4">
           <form method="POST" action="data.php">
             <br> <h4>Simulador de Frete</h4> <br> 
-             <label>CEP:</label>
-               <input type="int" name="CEP" size="10"> -
-             <input type="int" name="Final CEP" size="2" >
+             <label id="cep">CEP:</label>
+             <input  id="startCep" name="CEP" size="10"> -
+             <input id="endCep" type="int" name="Final CEP" size="2" >
+               
                 <input id="CalculateShipping"  type="submit" value="CALCULAR FRETE">
                 <br> <h3> </h3>
     </div>
@@ -52,7 +70,7 @@
     
     
     
-    
+  
 
     
     
