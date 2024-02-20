@@ -19,7 +19,6 @@
     <div id="cotainerB">
 
     <div id="cotainerB1" >
-    
             <span id="pointRight">•</span>      
             Lançamento          
             <span id="pointLeft">•</span>
@@ -31,8 +30,6 @@
     <h5 id="price2"> <?php echo "$price2"; ?></h5>
     <a href="" rel="nofollow" id="formsOfpaagmwento" class="color color-tone-6"><?php echo "$formsOfpaagmwento"; ?> </a>
     <br><br><br>
-
-    
     </div>
    
 
@@ -62,18 +59,13 @@
              <input  id="startCep" name="CEP" size="10"> -
              <input id="endCep" type="int" name="Final CEP" size="2" >
                
-                <input id="CalculateShipping"  type="submit" value="CALCULAR FRETE">
-                <br> <h3> </h3>
-    </div>
+            <input id="CalculateShipping"  type="submit" value="CALCULAR FRETE">
+            <br> <h3> </h3>
         </div>
-    <div>
+    </div>
     
-    
-    
-  
+   
 
-    
-    
     
 </body>
 </html> 
