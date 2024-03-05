@@ -10,7 +10,7 @@
 </head>
 <body>
   
-    <h2 id="productName"> <?php echo "$productName"; ?></h2>
+    <h2 id="productName"> <?= "$productName"; ?></h2>
 
     <div id="cotainerA">
      <img src="img/anilha.png">  
@@ -26,9 +26,9 @@
 
 
     <div id="cotainerB5">
-    <h3 id="price"> <?php echo "$price"; ?></h3>
-    <h5 id="price2"> <?php echo "$price2"; ?></h5>
-    <a href="" rel="nofollow" id="formsOfpaagmwento" class="color color-tone-6"><?php echo "$formsOfpaagmwento"; ?> </a>
+    <h3 id="price"> <?= "$price"; ?></h3>
+    <h5 id="price2"> <?= "$price2"; ?></h5>
+    <a href="" rel="nofollow" id="formsOfpaagmwento" class="color color-tone-6"><?= "$formsOfpaagmwento"; ?> </a>
     <br><br><br>
     </div>
    
