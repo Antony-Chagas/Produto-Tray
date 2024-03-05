@@ -2,10 +2,15 @@
 
 require_once 'function.php';
 
+$productId = 1;
 $productName = 'Anilha de Musculação da Mon';
+
 $launch = 'Lançamento';
+
 $value = 1000;
+
 $price = 'por R$ ' . formatTwoDecimalPlaces($value);
+
 $price2 = 'ou 12x de R$ ' . formatTwoDecimalPlaces(($value * 1.12) / 12) . ' com juros Cartão - Vindi';
 
 

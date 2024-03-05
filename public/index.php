@@ -10,6 +10,7 @@
 </head>
 <body>
   
+    <input type="hidden" name="productId" value=<?= "$productId"; ?>>
     <h2 id="productName"> <?= "$productName"; ?></h2>
 
     <div id="cotainerA">
