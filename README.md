@@ -2,7 +2,7 @@
 Projeto para desenvolver as minhas habilidade como programador Junior, tendo em vista os resquisitos da empresa Tray.
 
 ## Indice <h4>
-* [Funcionalidades do projeto](#Funcionalidades-do-projeto)
+
 * Status do Projeto.
 * Descrição do Projeto.
 * Tecnologias utilizadas
