@@ -12,7 +12,7 @@ Projeto para desenvolver as minhas habilidade como programador Junior, tendo em 
 > :construction: Projeto em construção :construction:
 ## Descrição do Projeto <h4>
 1. Desenvolver a página de um produto, em que podem ser efetuadas compras de pedidos.
-     * Na primeira fase foi desenvolvida a parte visual “layout”, com os dos dados extraído de de um arquivo **PHP** e manipulado pelo **HTML** e **CSS**.
+     * Na primeira fase foi desenvolvida a parte visual “layout”, com os dos dados extraído de um arquivo **PHP** e manipulado pelo **HTML** e **CSS**.
 
 2. Futuro: :construction: 
      * Desenvolver as funcionalidades de compra, cálculo de frete, escolha da forma de pagamento.
