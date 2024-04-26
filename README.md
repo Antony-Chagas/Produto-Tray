@@ -1,4 +1,4 @@
-<h1> Prduto Tray </h1>
+<h1> Página de prduto Tray </h1>
 Projeto para desenvolver as minhas habilidade como programador Junior, tendo em vista os resquisitos da empresa Tray.
 
 ## Indice <h4>
