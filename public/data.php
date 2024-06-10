@@ -1,9 +1,11 @@
 <?php
 
-require_once 'function.php';
+require_once 'functions.php';
+include("registerProduct.php");
+
 
 $productId = 1;
-$productName = 'Anilha de Musculação da Mon';
+$productName = $productName2;
 
 $launch = 'Lançamento';
 
@@ -17,5 +19,7 @@ $price2 = 'ou 12x de R$ ' . formatTwoDecimalPlaces(($value * 1.12) / 12) . ' com
 
 $formsOfpaagmwento = ' + Ver todas as formas de pagamento';
 $addToList = 'Adicioar à lista';
+
+
 
 
